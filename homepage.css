@@ -1,5 +1,16 @@
 .name{
   font-family: Roboto, sans-serif;
   float: left;
-  text-size: 24px;
+  font-size: 36px;
+}
+
+#navbar ul{
+  margin: 0; 
+	padding: 5px; 
+	list-style-type: none; 
+	text-align: center; 
+}
+
+#navbar ul li{
+  display: inline;
 }
