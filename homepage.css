@@ -1,24 +1,24 @@
-.name{
-  font-family: "Helvetica", sans-serif;
-  float: left;
-  font-size: 36px;
-}
-
-#navbar ul{
-  margin: 0; 
-	padding: 5px; 
-	list-style-type: none; 
-  text-align: center; 
-  text-transform: capitalize;
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  overflow: hidden;
+  border: 1px solid black;
+  background-color: white;
 }
 
-#navbar ul li{
-  display: inline;
+li {
+  float: right;
 }
 
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  color: white;
+  background-color: black;
