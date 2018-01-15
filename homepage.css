@@ -23,3 +23,8 @@ li a.active {
   color: white;
   background-color: black;
 }
+
+p{
+  border: 1px solid black;
+  text-align: center;
+}
