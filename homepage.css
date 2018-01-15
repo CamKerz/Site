@@ -24,6 +24,16 @@ li a.active {
   background-color: black;
 }
 
+
+#sidebar{
+  border: 1px solid black;
+  width: 200px;
+  height: 500px;
+  padding: 20px;
+  float: right;
+  }
+
+
 #content{
   border: 1px solid black;
   width: 500px;
@@ -31,13 +41,6 @@ li a.active {
   padding: 20px;
 }
 
-#sidebar{
-border: 1px solid black;
-width: 200px;
-height: 500px;
-padding: 20px;
-float: right;
-}
 
 #footer{
   border: 1px solid black;
