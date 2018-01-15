@@ -23,29 +23,3 @@ li a.active {
   color: white;
   background-color: black;
 }
-
-.container{
-  width: 800px;
-  margin: 0 auto;
-}
-
-#content{
-  width: 500px;
-  float: left;
-  border: 1px solid black;
-}
-
-#sidebar{
-  width: 150px;
-  border: 1px solid black;
-  padding: 15px;
-}
-
-#footer{
-  padding-top:20px;
-  background-color: black;
-}
-
-#footer p{
-  color: white;
-}
